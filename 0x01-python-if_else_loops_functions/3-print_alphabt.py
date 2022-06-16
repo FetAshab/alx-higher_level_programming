@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for alphabet in range(97, 123):
-    if alphabet != 113 and alphabet != 101:
-        print('{:c}'.format(alphabet), end='')
+for i in range(ord('a'), ord('z') + 1):
+    if i != ord('q') and i != ord('e'):
+        print('{:c}'.format(i), end='')
